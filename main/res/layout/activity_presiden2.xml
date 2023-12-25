@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="56dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANDA MENCOBLOS"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/ceklis"/>
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama              : " />
+
+    <TextView
+        android:id="@+id/textViewAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat            : " />
+
+    <TextView
+        android:id="@+id/textViewTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir : " />
+
+    <!-- Menampilkan pilihan Anda -->
+    <TextView
+        android:id="@+id/textViewPilihanSaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilihan Saya      : prabowo subianto gibran rakabuming" />
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/biruw"/>
+</LinearLayout>

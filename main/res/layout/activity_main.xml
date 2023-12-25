@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="70dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/biruw"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/kpu"/>
+
+    <EditText
+        android:id="@+id/editTextNik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextBirthPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Lahir (ddmmyyyy)"
+        android:inputType="number"
+        android:password="true"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/oranggee"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? "
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/buttonAdminLogin"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="Login Admin" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pemilu Bersama</string>
+    <string-array name="gender_array">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
